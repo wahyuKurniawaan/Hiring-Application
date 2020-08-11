@@ -27,4 +27,8 @@
     <string name="negotiation_image">Negotiation Image</string>
     <string name="onboard_find_your_job">Find your dream job</string>
     <string name="onboard_description">Dengan aplikasi Bisa Kerja, kamu akan mendapatkan akses ke jutaan lowongan kerja yang sedang tersedia saat ini</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="profile_image">profile image</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="name">Name</string>
 </resources>

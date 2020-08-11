@@ -19,19 +19,19 @@ class FormInputActivity : AppCompatActivity() {
         val etGender = findViewById<EditText>(R.id.et_gender)
         val etPhoneNumber = findViewById<EditText>(R.id.et_number_phone)
         val etBirthday = findViewById<EditText>(R.id.et_birthday)
-        val etAddress = findViewById<EditText>(R.id.et_birthday)
+        val etAddress = findViewById<EditText>(R.id.et_address)
         val etEducation = findViewById<EditText>(R.id.et_education)
         val btnSubmit = findViewById<Button>(R.id.btn_submit)
 
         btnSubmit.setOnClickListener {
             val intent = Intent(this, ProfileActivity::class.java)
-            intent.putExtra("FIRST_NAME", etFirstName.toString())
-            intent.putExtra("LAST_NAME", etLastName.toString())
-            intent.putExtra("GENDER", etGender.toString())
-            intent.putExtra("PHONE_NUMBER", etPhoneNumber.toString())
-            intent.putExtra("BIRTHDAY", etBirthday.toString())
-            intent.putExtra("ADDRESS", etAddress.toString())
-            intent.putExtra("LAST_EDUCATION", etEducation.toString())
+            intent.putExtra("FIRST_NAME", "${etFirstName.text}")
+            intent.putExtra("LAST_NAME", "${etLastName.text}")
+            intent.putExtra("GENDER", "${etGender.text}")
+            intent.putExtra("PHONE_NUMBER", "${etPhoneNumber.text}")
+            intent.putExtra("BIRTHDAY", "${etBirthday.text}")
+            intent.putExtra("ADDRESS", "${etAddress.text}")
+            intent.putExtra("LAST_EDUCATION", "${etEducation.text}")
             startActivity(intent)
         }
     }

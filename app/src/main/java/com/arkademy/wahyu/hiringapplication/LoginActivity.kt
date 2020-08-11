@@ -24,6 +24,7 @@ class LoginActivity : AppCompatActivity() {
         // mendapatkan extra dari Register Activity
         val username = intent.getStringExtra("USER_NAME")
         val password = intent.getStringExtra("PASSWORD")
+        println(username)
 
         // ini di akhir saya gunakan function toEditable() karena ada error
         // Type mismatch: inferred type is string? but editable! was expected
@@ -43,6 +44,6 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    //
+    // function untuk merubah String to Editable
     fun String.toEditable(): Editable = Editable.Factory.getInstance().newEditable(this)
 }
