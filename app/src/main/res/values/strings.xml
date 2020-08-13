@@ -22,11 +22,11 @@
     <string name="address">Address</string>
     <string name="last_education">Last Education</string>
     <string name="submit">SUBMIT</string>
-    <string name="form_input_data_diri">Form Input Data Diri</string>
+    <string name="update_profile_title">Update your profile</string>
     <string name="version">version 1.0.0</string>
     <string name="negotiation_image">Negotiation Image</string>
     <string name="onboard_find_your_job">Find your dream job</string>
-    <string name="onboard_description">Dengan aplikasi Bisa Kerja, kamu akan mendapatkan akses ke jutaan lowongan kerja yang sedang tersedia saat ini</string>
+    <string name="onboard_description">Find essential job that are in high demand right now</string>
     <string name="phone_number">Phone Number</string>
     <string name="profile_image">profile image</string>
     <string name="your_profile">Your Profile</string>
