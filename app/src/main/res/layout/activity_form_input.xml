@@ -116,7 +116,7 @@
         style="@style/tittle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/form_input_data_diri"
+        android:text="@string/update_profile_title"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
