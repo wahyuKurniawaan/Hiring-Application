@@ -3,17 +3,17 @@
     package="com.arkademy.wahyu.hiringapplication">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_businessman"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_businessman_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OnboardActivity"></activity>
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".FormInputActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".activity.OnboardActivity" />
+        <activity android:name=".activity.ProfileActivity" />
+        <activity android:name=".activity.FormInputActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="24dp"
     android:background="@android:color/holo_blue_light"
-    tools:context=".FormInputActivity">
+    tools:context=".activity.FormInputActivity">
 
     <EditText
         android:id="@+id/et_first_name"
